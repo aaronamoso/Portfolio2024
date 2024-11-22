@@ -25,6 +25,7 @@ export const ThemeProvider = ({ children }) => {
 
     // 8. Function to switch between light and dark themes
     const toggleTheme = () => {
+    
         setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
     };
 
