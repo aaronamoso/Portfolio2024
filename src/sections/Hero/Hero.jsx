@@ -42,14 +42,17 @@ function Hero() {
         </h1>
         <h2>Frontend Developer</h2>
         <span>
-          <a href="https://github.com/aaronamoso" target="_blank"></a>
-          <img src={githubIcon} alt="Github icon" />
-          <a href="https://linkedin.com/aaronamoso" target="_blank"></a>
-          <img src={linkedinIcon} alt="Linkedin icon" />
+          <a href="https://github.com/aaronamoso" target="_blank"><img src={githubIcon} alt="Github icon" className="hover"/></a>
+          
+          <a href="https://linkedin.com/aaronamoso" target="_blank"><img src={linkedinIcon} alt="Linkedin icon" className="hover"/></a>
+          
         </span>
-        <p>With a passion for developing modern web applications</p>
+        <p className={styles.description}>With a passion for developing modern web applications</p>
         <a href={CV} download></a>
-        <button className="hover">Download Resume</button>
+        <div className="button-container">
+          <button className="hover">Resume</button>
+        </div>
+        
       </div>
     </section>
   );
