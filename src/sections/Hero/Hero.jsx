@@ -2,6 +2,7 @@
 import styles from "./HeroStyles.module.css";
 import React from "react";
 import heroImg from "../../assets/hero-img.png";
+import meProfile from "../../assets/me_profile.webp";
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
 // social icons dark and light versions
@@ -26,7 +27,7 @@ function Hero() {
       <div className={styles.colorModeContainer}>
         <img
           className={styles.hero} //reference the styles then class name
-          src={heroImg}
+          src={meProfile}
           alt="profile picture"
         />
         <img
@@ -34,6 +35,7 @@ function Hero() {
           className={styles.colorMode}
           alt="Color mode icon"
           onClick={toggleTheme}
+          p
         />
       </div>
       <div className={styles.info}>

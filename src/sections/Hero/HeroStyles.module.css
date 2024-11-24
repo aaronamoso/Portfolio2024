@@ -22,7 +22,9 @@
 
             img {
                 width: 3rem;
-            };
+            }
+
+            ;
         }
 
         a {
@@ -38,9 +40,12 @@
 
     .button-container {
         display: flex;
-        justify-content: center; /* Center horizontally */
-        align-items: center;     /* Center vertically */
-        height: 100vh;           /* Make the container take up full viewport height */
+        justify-content: center;
+        /* Center horizontally */
+        align-items: center;
+        /* Center vertically */
+        height: 100vh;
+        /* Make the container take up full viewport height */
     }
 
     button {
@@ -48,8 +53,10 @@
         color: var(--btn-text-color);
         border: none;
         border-radius: 20px;
-        width: 30vw; /* 30% of viewport width, adjust as needed */
-        max-width: 200px; /* optional max-width to prevent it from getting too wide */
+        width: 30vw;
+        /* 30% of viewport width, adjust as needed */
+        max-width: 200px;
+        /* optional max-width to prevent it from getting too wide */
         height: 50px;
         font-size: 20px;
         font-weight: bold;
@@ -70,24 +77,35 @@
     .social-icons {
         display: flex;
         gap: 25px;
-        justify-content: center; /* Centers the icons horizontally */
-        align-items: center; /* Ensures icons are vertically aligned */
+        justify-content: center;
+        /* Centers the icons horizontally */
+        align-items: center;
+        /* Ensures icons are vertically aligned */
     }
 
     .social-icons a {
-        display: inline-flex; /* Ensures correct alignment for each icon */
+        display: inline-flex;
+        /* Ensures correct alignment for each icon */
         justify-content: center;
         align-items: center;
-        width: 40px; /* Ensure consistent clickable area */
+        width: 40px;
+        /* Ensure consistent clickable area */
         height: 40px;
     }
 
     .social-icons img {
-        width: 30px; /* Standard size for all logos */
-        height: 30px; /* Uniform height */
-        object-fit: contain; /* Prevents distortion */
+        width: 30px;
+        /* Standard size for all logos */
+        height: 30px;
+        /* Uniform height */
+        object-fit: contain;
+        /* Prevents distortion */
     }
 
+}
+
+.hero {
+    border-radius: 180px;
 }
 
 .colorModeContainer {
@@ -113,4 +131,27 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+@media (width >=800px) {
+    .container {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        .hero {
+            max-width: 350px;
+            width: 350px;
+        }
+    }
+}
+
+@media (width >=1400px) {
+    .container {
+
+        .hero {
+            max-width: 400px;
+            width: 400px;
+        }
+    }
 }
