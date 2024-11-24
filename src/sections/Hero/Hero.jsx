@@ -50,11 +50,11 @@ function Hero() {
           
         </span>
         <p className={styles.description}>With a passion for developing modern web applications</p>
-        <a href={AaronAmosoResume} download></a>
+        <a href={AaronAmosoResume} download>
         <div className="button-container">
           <button className="hover">Resume</button>
         </div>
-        
+        </a>
       </div>
     </section>
   );
