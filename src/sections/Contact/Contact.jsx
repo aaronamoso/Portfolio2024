@@ -32,7 +32,7 @@ function Contact() {
   };
 
   return (
-    <div className={styles.container}>
+    <div className="contact">
       <section id="contact" className={styles.container}>
         <h1 className="sectionTitle">Contact</h1>
         <form action="" method="post" onSubmit={onSubmit}>
