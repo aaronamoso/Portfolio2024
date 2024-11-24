@@ -8,6 +8,10 @@
     min-height: 100vh; /* Ensure it takes full height of the viewport */
 }
 
+#contact {
+    text-align: center;
+}
+
 form {
     display: flex;
     flex-direction: column;
