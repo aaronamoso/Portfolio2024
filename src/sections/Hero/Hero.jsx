@@ -11,7 +11,7 @@ import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
 
-import CV from "../../assets/CV.pdf";
+import AaronAmosoResume from "../../assets/AaronAmosoResume.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -50,7 +50,7 @@ function Hero() {
           
         </span>
         <p className={styles.description}>With a passion for developing modern web applications</p>
-        <a href={CV} download></a>
+        <a href={AaronAmosoResume} download></a>
         <div className="button-container">
           <button className="hover">Resume</button>
         </div>
