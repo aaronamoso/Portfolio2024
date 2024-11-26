@@ -6,6 +6,7 @@
     align-items: center; /* Horizontally centers the content */
     text-align: center;
     min-height: 100vh; /* Ensure it takes full height of the viewport */
+    width: 100%; /* Ensure it spans the full viewport width */
 }
 
 #contact {
@@ -13,7 +14,11 @@
 }
 
 .sectionTitle {
-    text-align: center;
+    margin: 0 auto; /* Center horizontally */
+    margin-top: 100px; /* Retain desired top spacing */
+    padding: 0 20px; /* Optional padding to prevent overflow on small screens */
+    font-size: 2rem; /* Responsive font size */
+    line-height: 1.5; /* Improve readability */
 }
 
 form {

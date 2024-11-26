@@ -16,9 +16,9 @@ function Contact() {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Accept: "application/json"
+        Accept: "application/json",
       },
-      body: json
+      body: json,
     }).then((res) => res.json());
 
     if (res.success) {
@@ -34,7 +34,7 @@ function Contact() {
   return (
     <div className="contact">
       <section id="contact" className={styles.container}>
-        <h1 className="sectionTitle">Contact</h1>
+        <h1 className={styles.sectionTitle}>Contact</h1> {/* Updated to use scoped styles */}
         <form action="" method="post" onSubmit={onSubmit}>
           <div className="formGroup">
             <label htmlFor="name" hidden>Name</label>
