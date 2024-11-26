@@ -34,8 +34,9 @@ function Contact() {
   return (
     <div className="contact">
       <section id="contact" className={styles.container}>
-        <h1 className={styles.sectionTitle}>Contact</h1> {/* Updated to use scoped styles */}
+
         <form action="" method="post" onSubmit={onSubmit}>
+        <h1 className={styles.sectionTitle}>Contact</h1> {/* Updated to use scoped styles */}
           <div className="formGroup">
             <label htmlFor="name" hidden>Name</label>
             <input type="text" name="name" id="name" placeholder="Name" required />
