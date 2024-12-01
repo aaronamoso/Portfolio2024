@@ -42,7 +42,7 @@ function Hero() {
         <h1>
           Aaron <br /> Amoso
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>Software Developer</h2>
         <span>
           <a href="https://github.com/aaronamoso" target="_blank"><img src={githubIcon} alt="Github icon" className="hover"/></a>
           
