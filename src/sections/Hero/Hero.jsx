@@ -35,7 +35,7 @@ function Hero() {
           className={styles.colorMode}
           alt="Color mode icon"
           onClick={toggleTheme}
-          p
+          
         />
       </div>
       <div className={styles.info}>
