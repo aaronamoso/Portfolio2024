@@ -1,7 +1,6 @@
 // rfce is a short term for creating a boilerplate like ! for HTML
 import styles from "./HeroStyles.module.css";
 import React from "react";
-import heroImg from "../../assets/hero-img.png";
 import meProfile from "../../assets/me_profile.webp";
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
